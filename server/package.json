@@ -4,8 +4,7 @@
   "description": "backend-server",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon app.js",
-    "serve": "nodemon app.js"
+    "start": "node."
   },
   "keywords": [
     "es"

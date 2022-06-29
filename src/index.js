@@ -1,14 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Principal from './Principal';
+import Principal from './components/Principal';
+import Login from './components/Login';
+import Puzzle from './components/Puzzle';
+import LoveU from './components/LoveU';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Principal />
+    <Router>
+    <Link to="/"></Link>
+    <Link to="/login"></Link>
+    <Link to="/puzzle"></Link>
+    <Link to="/loveu"></Link>
+      <Routes>
+        <Route exact path="/" element={<Principal/>}/>
+        <Route exact path="/login" element={<Login/>}/>
+        <Route exact path="/puzzle" element={<Puzzle/>}/>
+        <Route exact path="/loveu" element={<LoveU/>}/>
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 

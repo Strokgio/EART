@@ -1,0 +1,88 @@
+
+.container-fluid {
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(10px);
+  }
+    
+.container{
+    height: 100%;
+    align-content: center;
+}
+    
+.card{
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+    
+    
+.card-header div{
+    display:flex;
+    color: #75088e;
+    align-items: center;
+    justify-content: center;
+    font-family: "fantasy";
+    font-size: 35px; 
+}
+
+.card-footer div{
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: "fantasy";
+    font-size: auto; 
+}
+
+.card-body{
+    align-items: center;
+    justify-content: center;
+    font-family: "fantasy";
+    font-size: 35px; 
+}
+    
+    
+.input-group-prepend div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    background-color: #75088e;
+    border:0 !important;
+}
+
+.input-group{
+    margin-bottom: 15px !important;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+
+    
+.login_btn{
+    color: white;
+    background-color: #75088e;
+    width: 100px;
+    font-family: "fantasy";
+    font-size: 20px; 
+}
+    
+.login_btn:hover{
+    color: #75088e;
+    background-color: transparent;
+}
+    

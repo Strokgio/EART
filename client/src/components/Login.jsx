@@ -23,7 +23,7 @@ function Login(){
 		setState({loading:true, error:false})
 		event.preventDefault();
 		console.log(datos.username + " - "+ datos.password)
-		Axios.post("http://localhost:3001/api/login",{
+		Axios.post("/api/login",{
 			username : datos.username,
 			password : datos.password,
 		}).then(({ data }) =>{

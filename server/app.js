@@ -7,6 +7,8 @@ const mysql = require("mysql");
 
 const app = express();
 
+const PORT = process.env.PORT || 3001;
+
 app.use(express.json());
 app.use(cors())
 
@@ -40,6 +42,6 @@ app.post('/api/login',(req,res) =>{
     conexion.end()
 })
 
-app.listen(3001, ()=>{
+app.listen(PORT, ()=>{
     console.log("running server");
 })

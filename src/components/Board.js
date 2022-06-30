@@ -20,16 +20,37 @@ function Board({ imgUrl }) {
       background: '#201f20 ',
       backdrop: `
         rgba(0,0,123,0.4)
-        url("https://c.tenor.com/GO77-LvOh9oAAAAi/cat-rainbow.gif")
+        url("https://media.giphy.com/media/TMkwG0Ahp54l6wpoD9/giphy.gif")
         left top
         no-repeat
       `
     }).then(respuesta=>{
       if(respuesta){
-        navigate("/loveu")
+        showa();
       }
     })
   }
+
+  const showa=()=>{
+    Swal.fire({
+      title: 'Ahora tendras que vencerme una vez más en ahorcados, pero esta vez no seras tu la que este detras de la horca 😱',
+      width: 600,
+      padding: '1em',
+      color: '#fff',
+      background: '#201f20 ',
+      backdrop: `
+        rgba(0,0,123,0.4)
+        url("https://media.giphy.com/media/BfBvyQ1L3d0IDxruL7/giphy.gif")
+        left top
+        no-repeat
+      `
+    }).then(respuesta=>{
+      if(respuesta){
+        navigate("/hanged")
+      }
+    })
+  }
+
 
   const shuffleTiles = () => {
     const shuffledTiles = shuffle(tiles)

@@ -1,4 +1,5 @@
-import { TILE_COUNT, GRID_SIZE } from "./constants"
+import { TILE_COUNT, GRID_SIZE } from "./constants";
+import { useNavigate } from 'react-router-dom';
 
 // Credits to https://codepen.io/unindented/pen/QNWdRQ
 export function isSolvable(tiles) {
@@ -83,3 +84,4 @@ export function updateURLParameter(url, param, paramVal) {
   var rows_txt = temp + "" + param + "=" + paramVal;
   return baseURL + "?" + newAdditionalURL + rows_txt;
 }
+

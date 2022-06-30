@@ -1,0 +1,20 @@
+div.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flexbox;
+  justify-content: center;
+}
+  
+
+  .child {
+    background: transparent;
+    padding: .30rem;
+    align-items: center;
+    align-items: center;
+    display:inline-block;
+    justify-content: center;
+    min-height: 2em;
+    height: 100%;
+    width: 100%;
+  }

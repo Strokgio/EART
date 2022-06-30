@@ -1,0 +1,15 @@
+.no-pulsado {
+    background-color: rgb(255, 255, 255);
+}
+
+.pulsado-no-acertado {
+    background-color: red;
+}
+
+.pulsado-acertado {
+    background-color: green;
+}
+
+#botonera {
+    text-align: center;
+}

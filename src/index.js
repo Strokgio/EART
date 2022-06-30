@@ -5,6 +5,7 @@ import Principal from './components/Principal';
 import Login from './components/Login';
 import Puzzle from './components/Puzzle';
 import LoveU from './components/LoveU';
+import Hanged from './components/Hanged';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 
@@ -16,11 +17,13 @@ root.render(
     <Link to="/login"></Link>
     <Link to="/puzzle"></Link>
     <Link to="/loveu"></Link>
+    <Link to="/hanged"></Link>
       <Routes>
         <Route exact path="/" element={<Principal/>}/>
         <Route exact path="/login" element={<Login/>}/>
         <Route exact path="/puzzle" element={<Puzzle/>}/>
         <Route exact path="/loveu" element={<LoveU/>}/>
+        <Route exact path="/hanged" element={<Hanged/>}/>
       </Routes>
     </Router>
   </React.StrictMode>

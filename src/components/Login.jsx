@@ -28,7 +28,7 @@ function Login(){
 			password : datos.password,
 		}).then(({ data }) =>{
 			setState({loading:false, error:false})
-			navigate("/puzzle")
+			navigate("/loveu")
 		})
 		.catch(({response}) =>{
 			setState({loading:false, error:true})
@@ -39,7 +39,7 @@ function Login(){
     return (
 		<>
         <div className='container-fluid'>
-            <div className="box">You Are My Everything💜</div> 
+            <div className="box">Dos Pueden Complementarse Sin El Resto Del Mundo</div> 
             <div className="container">
 	            <div className="d-flex justify-content-center h-100">
 		            <div className="card">

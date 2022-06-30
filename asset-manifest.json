@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/EART/static/css/main.765bd305.css",
+    "main.js": "/EART/static/js/main.b15e804c.js",
+    "static/js/787.c39f381c.chunk.js": "/EART/static/js/787.c39f381c.chunk.js",
+    "static/media/inicio.jpg": "/EART/static/media/inicio.3becf15ad789975fdc08.jpg",
+    "static/media/original.png": "/EART/static/media/original.6951e843bd0374a6fda2.png",
+    "index.html": "/EART/index.html",
+    "main.765bd305.css.map": "/EART/static/css/main.765bd305.css.map",
+    "main.b15e804c.js.map": "/EART/static/js/main.b15e804c.js.map",
+    "787.c39f381c.chunk.js.map": "/EART/static/js/787.c39f381c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.765bd305.css",
+    "static/js/main.b15e804c.js"
+  ]
+}

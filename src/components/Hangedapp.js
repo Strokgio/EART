@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Imagen from './Imagen';
 import Botonera from './Botonera';
 import PalabraAdivinadaHastaElMomento from './PalabraAdivinadaHastaElMomento';
-import Dialog from 'react-bootstrap-dialog';
+//import Dialog from 'react-bootstrap-dialog';
 import '../css/Hangedapp.css';
 import Swal from "sweetalert2";
 import {withRouter} from './withRouter';
@@ -132,7 +132,6 @@ class Hangedapp extends Component {
           <PalabraAdivinadaHastaElMomento 
             PalabraAdivinadaHastaElMomento={this.state.palabraAdivinadaHastaElMomento} />
           <Botonera sePulsoBoton={(i) => this.sePulsoBoton(i)} botones={this.state.botones}/>
-          <Dialog ref={(el) => { this.dialog = el }} />
         </div>
     );
   }
@@ -197,9 +196,6 @@ class Hangedapp extends Component {
           no-repeat
         `
       }).then(respuesta=>{
-        if(respuesta){
-          Dialog.OKAction()
-        }
       })
     }
 
@@ -208,7 +204,6 @@ class Hangedapp extends Component {
       showAlert();
     }else{
       showb();
-      
     }
   }
 
